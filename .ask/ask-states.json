@@ -1,0 +1,30 @@
+{
+  "askcliStatesVersion": "2020-03-31",
+  "profiles": {
+    "default": {
+      "skillInfrastructure": {
+        "@ask-cli/lambda-deployer": {
+          "deployState": {
+            "default": {
+              "lambda": {
+                "arn": "arn:aws:lambda:us-east-1:233100187653:function:ask-getjoinwords-default-default-1669154071411",
+                "lastModified": "2022-11-23T15:39:44.000+0000",
+                "revisionId": "03018b1f-9493-41f4-b30e-29e96d3dc143"
+              },
+              "iamRole": "arn:aws:iam::233100187653:role/ask-lambda-getJoinWords-1669154069749"
+            }
+          }
+        }
+      },
+      "skillId": "amzn1.ask.skill.4698a76f-e3a9-4277-8ea4-edccf8e6b0d2",
+      "skillMetadata": {
+        "lastDeployHash": "D7eIzWE92DNr2UimF9Nz8UQw7do="
+      },
+      "code": {
+        "default": {
+          "lastDeployHash": "CZ49rNosQOg5rPOmRVd4QlPVubE="
+        }
+      }
+    }
+  }
+}

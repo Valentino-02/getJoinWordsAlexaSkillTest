@@ -1,0 +1,77 @@
+{
+    "interactionModel": {
+      "languageModel": {
+        "invocationName": "unir nombre",
+        "intents": [
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.NavigateHomeIntent",
+            "samples": []
+          },
+          {
+            "name": "GetNombreIntent",
+            "slots": [
+              {
+                "name": "name",
+                "type": "AMAZON.SearchQuery"
+              }
+            ],
+            "samples": [
+              "mi primer nombre es {name}",
+              "mi nombre es {name}"
+            ]
+          },
+          {
+            "name": "GetApellidoIntent",
+            "slots": [
+              {
+                "name": "lastName",
+                "type": "AMAZON.SearchQuery"
+              }
+            ],
+            "samples": [
+              "apellido {lastName}",
+              "mi apellido es {lastName}"
+            ]
+          },
+          {
+            "name": "GetSegundoApellidoIntent",
+            "slots": [
+              {
+                "name": "secondLastName",
+                "type": "AMAZON.SearchQuery"
+              }
+            ],
+            "samples": [
+              "segundo apellido es {secondLastName}",
+              "mi segundo apellido es {secondLastName}"
+            ]
+          },
+          {
+            "name": "UseServiceIntent",
+            "slots": [],
+            "samples": [
+              "realiza el pedido",
+              "haz el pedido",
+              "realiza el llamado",
+              "haz el llamado"
+            ]
+          }
+        ],
+        "types": []
+      }
+    },
+    "version": "4"
+  }
+  
